@@ -1,0 +1,18 @@
+"""
+GitHub Crawler Configuration Package
+"""
+from .keywords import ALL_KEYWORDS, LANGUAGE_KEYWORDS, CLOUD_NATIVE_KEYWORDS, \
+    BIGDATA_KEYWORDS, AI_KEYWORDS, BLOCKCHAIN_KEYWORDS, DATABASE_KEYWORDS
+from .targets import CRAWL_TARGETS, TargetConfig
+
+__all__ = [
+    'ALL_KEYWORDS',
+    'LANGUAGE_KEYWORDS',
+    'CLOUD_NATIVE_KEYWORDS',
+    'BIGDATA_KEYWORDS',
+    'AI_KEYWORDS',
+    'BLOCKCHAIN_KEYWORDS',
+    'DATABASE_KEYWORDS',
+    'CRAWL_TARGETS',
+    'TargetConfig',
+]
